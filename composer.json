@@ -1,0 +1,19 @@
+{
+    "name": "marke/transport",
+    "description": "implementation of classes for working with a fleet of vehicles",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Marke\\Transport\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Denis Zarubin"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.1"
+    }
+}
