@@ -10,7 +10,7 @@ class Helicopter extends Vehicle
     public function __construct(string $model, int $speed, float $price)
     {
         parent::__construct($model, $speed, $price);
-        $this->nameVehicle = static::class;
+        $this->nameVehicle = 'Helicopter';
     }
     public function getInfo(): string
     {
